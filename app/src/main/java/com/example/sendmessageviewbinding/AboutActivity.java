@@ -35,7 +35,7 @@ public class AboutActivity extends MaterialAboutActivity {
                         .text("Mi página de GitHub")
                         .icon(R.drawable.ic_action_web)
                         .setOnClickAction(() -> {
-                            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY-Q5P6h_RTn8pOrlATMLud8PdrY6KkwMT7rOEjvSvhSjaLmnQWhbv7CgoUuunQz5nGYA&usqp=CAU"));
+                            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/daviZ30/SendMessageViewBinding.git"));
                             startActivity(intent);
                         })
                         .build())
